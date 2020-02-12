@@ -55,7 +55,7 @@ public class loginPageTest extends baseSF{
 			lp.getErrorMessage(msg);
 			
 	}
-		//@Test
+		@Test
 		public static void TC_02_loginToSFDC() throws Exception {
 			hp=new HomePageSF();
 			logger = reports.startTest("TC_02_loginToSFDC");

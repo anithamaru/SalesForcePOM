@@ -11,7 +11,7 @@
  </listeners>
   <test  name="SalesForce">
     <classes>
-      <class name="TestCases.MainPageTest"/>
+      <class name="TestCases.HomePageTest"/>
       <class name="TestCases.ForgorPasswordTest"/>
       <class name="TestCases.loginPageTest"/>
     </classes>

@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="Utility.listeners"/>
+  </listeners>
+  <test name="SalesForce(failed)" parallel="none">
     <classes>
+      <class name="TestCases.HomePageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.HomePageTest -->
+      <class name="TestCases.ForgorPasswordTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- TestCases.ForgorPasswordTest -->
       <class name="TestCases.loginPageTest">
         <methods>
           <include name="setUp"/>
@@ -11,5 +26,5 @@
         </methods>
       </class> <!-- TestCases.loginPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- SalesForce(failed) -->
+</suite> <!-- Failed suite [Suite] -->

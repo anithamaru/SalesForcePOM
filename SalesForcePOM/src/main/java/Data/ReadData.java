@@ -30,7 +30,7 @@ public class ReadData extends baseSF{
 				for ( i = 0; i <rowCount; i++) {
 					for ( j = 0; j < sheet.getRow(i).getLastCellNum(); j++) {
 						readData[i][j] = sheet.getRow(i).getCell(j).getStringCellValue();
-						System.out.println(readData[i][j]);
+						//System.out.println(readData[i][j]);
 					}
 				}
 				return readData;

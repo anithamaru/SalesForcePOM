@@ -59,7 +59,8 @@ public class baseSF {
 		reports.endTest(logger);
 		reports.flush();
 		}
-	public static void getScreenshot(String result) throws IOException {
+	
+	public void getScreenshot(String result) throws IOException {
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src,new File("C:\\Java_Anitha\\SalesForcePOM\\Screenshots\\"+result+"screenshot.png"));
 		

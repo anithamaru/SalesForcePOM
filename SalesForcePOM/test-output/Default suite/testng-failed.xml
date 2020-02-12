@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.loginPageTest">
+      <class name="TestCases.HomePageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="TC_4B_validateLoginErrorMessage"/>
           <include name="TearDown"/>
+          <include name="TC_05_SelectUserMenu"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.loginPageTest -->
+      </class> <!-- TestCases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
