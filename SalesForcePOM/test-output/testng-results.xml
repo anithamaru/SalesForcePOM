@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24319" started-at="2020-02-12T08:17:50Z" finished-at="2020-02-12T08:18:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24319" started-at="2020-02-12T08:17:50Z" finished-at="2020-02-12T08:18:15Z">
+      <class name="TestCases.MainPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.MainPageTest@29774679]" name="setUp" is-config="true" duration-ms="12553" started-at="2020-02-12T00:17:50Z" finished-at="2020-02-12T00:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_05_SelectUserMenu()[pri:0, instance:TestCases.MainPageTest@29774679]" name="TC_05_SelectUserMenu" duration-ms="6594" started-at="2020-02-12T00:18:03Z" finished-at="2020-02-12T00:18:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_SelectUserMenu -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.MainPageTest@29774679]" name="TearDown" is-config="true" duration-ms="5170" started-at="2020-02-12T00:18:09Z" finished-at="2020-02-12T00:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCases.MainPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
